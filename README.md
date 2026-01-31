@@ -1,19 +1,36 @@
-Dashboard Interativo com Dash & Plotly
+Dashboard de Análise Estatística - E-commerce 📊
+Este projeto transforma a análise estatística em uma aplicação web funcional, permitindo que o usuário final explore os dados sem precisar interagir diretamente com o código Python.
 
-Este módulo transforma a análise estatística em uma aplicação web funcional.
+🚀 Funcionalidades
+Visualização dinâmica: Gráficos interativos de correlações e distribuições.
 
-Funcionalidades:
+Análise de Tendência: Regressão Linear integrada para prever o impacto de reviews nas vendas.
 
-Visualização dinâmica de correlações e distribuições.
+Interface Organizada: Layout responsivo estruturado em grid para melhor experiência do usuário.
 
-Análise de tendência (Regressão Linear) integrada.
+🛠️ Tecnologias Utilizadas
+Python 3.x
 
-Interface responsiva organizada em grid.
+Pandas: Manipulação de dados.
 
-Como rodar:
+Plotly Express: Gráficos dinâmicos.
 
-Instale as dependências: pip install pandas plotly dash statsmodels
+Dash: Framework da aplicação web.
 
-Execute o arquivo: python dashboard_plotly.py
+Statsmodels: Cálculo de regressão linear.
 
+📊 Principais Insights
+Prova Social vs. Preço: A correlação entre avaliações e vendas (0.74) é muito superior à de descontos (0.11), provando que a confiança do cliente é o maior driver de conversão.
+
+Ponto de Inflexão: Produtos com mais de 100 avaliações apresentam um salto de performance, dobrando a média de unidades vendidas.
+
+⚙️ Como Rodar
+Instale as dependências:
+
+Bash
+pip install pandas plotly dash statsmodels
+Execute o arquivo:
+
+Bash
+python "Estatística no Plotly.py"
 Acesse no navegador: http://127.0.0.1:8050
